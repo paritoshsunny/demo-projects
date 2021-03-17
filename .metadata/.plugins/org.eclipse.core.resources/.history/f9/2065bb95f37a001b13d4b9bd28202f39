@@ -1,0 +1,5 @@
+package com.sunny.springboot.cruddemo.config;
+
+public class AppSecurityConfig {
+
+}

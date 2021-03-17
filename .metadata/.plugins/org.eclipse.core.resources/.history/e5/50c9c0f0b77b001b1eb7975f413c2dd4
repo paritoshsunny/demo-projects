@@ -1,0 +1,25 @@
+	package com.sunny.springboot.cruddemo.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.sunny.springboot.cruddemo.entity.Employee;
+
+public interface EmployeeRepository extends PagingAndSortingRepository<Employee, Integer> {
+	public static final EntityManager entityManager = null;
+	
+	public default List<Employee> searchEmployee(String keyword){
+		
+		Query query=entityManager.createQuery("SELECT * FROM employee_directory.employee WHERE :keyword IN (id,first_name,last_name,email);");
+		query.setParameter("keyword", keyword);
+		List<Employee> employees = query.getResultList();
+		return employees;
+		
+	}
+	
+
+}

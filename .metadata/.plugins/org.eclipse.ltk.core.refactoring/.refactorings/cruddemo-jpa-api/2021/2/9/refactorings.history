@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;EmployeeDaoHibernateImpl.java&apos; to &apos;cruddemo-jpa-api/src/main/java/com.sunny.springboot.cruddemo.dao&apos;&#x0A;- Original project: &apos;cruddemo-jpa-api&apos;&#x0A;- Destination element: &apos;cruddemo-jpa-api/src/main/java/com.sunny.springboot.cruddemo.dao&apos;&#x0A;- Original element: &apos;com.sunny.springboot.cruddemo.dao.EmployeeDaoHibernateImpl.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sunny.springboot.cruddemo.dao" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sunny.springboot.cruddemo.dao{EmployeeDaoHibernateImpl.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1614215833447" units="1" version="1.0"/>
+</session>

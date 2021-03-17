@@ -1,0 +1,28 @@
+package com.sunny.springboot.cruddemo.service;
+
+import java.util.List;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+import com.sunny.springboot.cruddemo.entity.Employee;
+
+public interface EmployeeService {
+	
+	public List<Employee> findAll();
+	
+	public Employee findById(int theId);
+	
+	public void save(Employee theEmployee);
+	
+	public void deleteById(int theId);
+
+	void saveAll(List<Employee> theEmployee);
+
+	public Page<Employee> findAll(Pageable pageable);
+	
+//	public List<Employee> listall(String keyword);
+
+	List<Employee> listAll(String keyword);
+
+}

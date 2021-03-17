@@ -1,0 +1,5 @@
+package com.sunny.springboot.cruddemo.entity;
+
+public class Employee {
+
+}
